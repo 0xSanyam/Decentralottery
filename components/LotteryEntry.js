@@ -115,7 +115,7 @@ const LotteryEntry = () => {
 						)}
 					</button>
 					<div className="py-2">
-						<div>Entry Fee: {ethers.utils.formatUnits(entryFee.toString(), "ether")} Eth</div>
+						<div>Entry Fee: {ethers.utils.formatUnits(entryFee.toString(), "ether")} Eth/Matic</div>
 						<div>{numOfPlayers} Players Currently Playing</div>
 						<div>Previous Winner: {winner}</div>
 					</div>
