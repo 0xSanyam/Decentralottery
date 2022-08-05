@@ -121,7 +121,7 @@ const LotteryEntry = () => {
 					</div>
 				</div>
 			) : (
-				<div>Lottery Address Not Found</div>
+				<div>Lottery address not found...please connect with polygon testnet or hardhat localhost.</div>
 			)}
 		</div>
 	);
